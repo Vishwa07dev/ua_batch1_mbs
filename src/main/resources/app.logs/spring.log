@@ -1,0 +1,707 @@
+2021-08-28 19:15:42.865  INFO 53740 --- [main] c.v.m.MovieBookingSystemApplication      : Starting MovieBookingSystemApplication using Java 11.0.8 on vimohan-mn2.linkedin.biz with PID 53740 (/Users/vimohan/Downloads/movieBookingSystem/target/classes started by vimohan in /Users/vimohan/Downloads/movieBookingSystem)
+2021-08-28 19:15:42.870  INFO 53740 --- [main] c.v.m.MovieBookingSystemApplication      : No active profile set, falling back to default profiles: default
+2021-08-28 19:15:43.899  INFO 53740 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-28 19:15:44.082  INFO 53740 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 162 ms. Found 9 JPA repository interfaces.
+2021-08-28 19:15:44.908  INFO 53740 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-08-28 19:15:44.922  INFO 53740 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-28 19:15:44.923  INFO 53740 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-08-28 19:15:45.051  INFO 53740 --- [main] o.a.c.c.C.[.[localhost].[/mbs/v1]        : Initializing Spring embedded WebApplicationContext
+2021-08-28 19:15:45.051  INFO 53740 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2129 ms
+2021-08-28 19:15:45.088  INFO 53740 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-28 19:15:45.308  INFO 53740 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-28 19:15:45.318  INFO 53740 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mbdb'
+2021-08-28 19:15:45.508  INFO 53740 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-28 19:15:45.584  INFO 53740 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-28 19:15:45.774  INFO 53740 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-28 19:15:45.933  INFO 53740 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-28 19:15:46.784  INFO 53740 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-28 19:15:46.795  INFO 53740 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-28 19:15:47.502  WARN 53740 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-28 19:15:47.927  INFO 53740 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/mbs/v1'
+2021-08-28 19:15:47.940  INFO 53740 --- [main] c.v.m.MovieBookingSystemApplication      : Started MovieBookingSystemApplication in 5.625 seconds (JVM running for 6.796)
+2021-08-28 19:15:48.026  INFO 53740 --- [main] c.v.m.MovieBookingSystemApplication      : Writing for info
+2021-08-28 19:15:48.026  WARN 53740 --- [main] c.v.m.MovieBookingSystemApplication      : Writing for warn
+2021-08-28 19:15:48.026 ERROR 53740 --- [main] c.v.m.MovieBookingSystemApplication      : Writing for error
+2021-08-28 19:24:14.620  INFO 53740 --- [http-nio-8082-exec-9] o.a.c.c.C.[.[localhost].[/mbs/v1]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-28 19:24:14.621  INFO 53740 --- [http-nio-8082-exec-9] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-28 19:24:14.623  INFO 53740 --- [http-nio-8082-exec-9] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-08-28 19:24:14.656  INFO 53740 --- [http-nio-8082-exec-9] c.v.m.controllers.MovieController        : Inside get all movies
+2021-08-28 19:24:41.279  INFO 53740 --- [http-nio-8082-exec-8] c.v.m.controllers.MovieController        : Inside get all movies
+2021-08-28 19:26:26.340  INFO 53740 --- [http-nio-8082-exec-6] c.v.m.controllers.MovieController        : Inside get all movies
+2021-08-28 19:33:08.313  INFO 53740 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-28 19:33:08.317  INFO 53740 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-28 19:33:08.321  INFO 53740 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-08-28 19:34:24.630  INFO 71891 --- [main] c.v.m.MovieBookingSystemApplicationTests : Starting MovieBookingSystemApplicationTests using Java 11.0.8 on vimohan-mn2.linkedin.biz with PID 71891 (started by vimohan in /Users/vimohan/Downloads/movieBookingSystem)
+2021-08-28 19:34:24.633  INFO 71891 --- [main] c.v.m.MovieBookingSystemApplicationTests : No active profile set, falling back to default profiles: default
+2021-08-28 19:34:25.542  INFO 71891 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-28 19:34:25.653  INFO 71891 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 100 ms. Found 9 JPA repository interfaces.
+2021-08-28 19:34:26.483  INFO 71891 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-28 19:34:26.581  INFO 71891 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-28 19:34:26.830  INFO 71891 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-28 19:34:26.994  INFO 71891 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-28 19:34:27.290  INFO 71891 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-28 19:34:27.322  INFO 71891 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-28 19:34:28.556  INFO 71891 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-28 19:34:28.569  INFO 71891 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-28 19:34:29.732  WARN 71891 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-28 19:34:30.073  INFO 71891 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mbdb'
+2021-08-28 19:34:30.432  INFO 71891 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: b080803c-248a-49b3-931c-3be20f37a762
+
+2021-08-28 19:34:30.736  INFO 71891 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6bc8d8bd, org.springframework.security.web.context.SecurityContextPersistenceFilter@386ea60f, org.springframework.security.web.header.HeaderWriterFilter@45cddfd3, org.springframework.security.web.csrf.CsrfFilter@432b883, org.springframework.security.web.authentication.logout.LogoutFilter@1f05d08c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@4bba2704, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@227c0cf7, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@395c21ee, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1a67bde5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7ec176da, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@20fdaf3e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1e733bb5, org.springframework.security.web.session.SessionManagementFilter@30d2f9ea, org.springframework.security.web.access.ExceptionTranslationFilter@5687ade6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1ae90cb9]
+2021-08-28 19:34:30.843  INFO 71891 --- [main] c.v.m.MovieBookingSystemApplicationTests : Started MovieBookingSystemApplicationTests in 6.628 seconds (JVM running for 8.055)
+2021-08-28 19:34:31.168  INFO 71891 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.vishwa.movieBookingSystem.services.impl.MovieServiceImplTest], using SpringBootContextLoader
+2021-08-28 19:34:31.170  INFO 71891 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.vishwa.movieBookingSystem.services.impl.MovieServiceImplTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-08-28 19:34:31.170  INFO 71891 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.vishwa.movieBookingSystem.services.impl.MovieServiceImplTest]: MovieServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-08-28 19:34:31.186  INFO 71891 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.vishwa.movieBookingSystem.MovieBookingSystemApplication for test class com.vishwa.movieBookingSystem.services.impl.MovieServiceImplTest
+2021-08-28 19:34:31.189  INFO 71891 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-08-28 19:34:31.190  INFO 71891 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@74120029, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3031d9e9, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@1415f18d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@61c42e54, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@533690d, org.springframework.test.context.support.DirtiesContextTestExecutionListener@3bf306d3, org.springframework.test.context.transaction.TransactionalTestExecutionListener@5101b9, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@40273969, org.springframework.test.context.event.EventPublishingTestExecutionListener@5ec25b61, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7da40bf4, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@75708130, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@c651286, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@40304938, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1d160161, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@6c9e7af2]
+2021-08-28 19:34:31.202  WARN 71891 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2021-08-28 19:34:31.203 ERROR 71891 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "PUBLIC.UK_IKTY98AYE7NUNXE4F25A39EFL_INDEX_9 ON PUBLIC.STATUS(STATUS_NAME) VALUES 8"; SQL statement:
+insert into status (status_name, status_id) values (?, ?) [23505-200]
+2021-08-28 19:34:31.230  INFO 71891 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.vishwa.movieBookingSystem.services.impl.MovieServiceImplUnitTest], using SpringBootContextLoader
+2021-08-28 19:34:31.231  INFO 71891 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.vishwa.movieBookingSystem.services.impl.MovieServiceImplUnitTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-08-28 19:34:31.232  INFO 71891 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.vishwa.movieBookingSystem.services.impl.MovieServiceImplUnitTest]: MovieServiceImplUnitTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-08-28 19:34:31.234  INFO 71891 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.vishwa.movieBookingSystem.MovieBookingSystemApplication for test class com.vishwa.movieBookingSystem.services.impl.MovieServiceImplUnitTest
+2021-08-28 19:34:31.236  INFO 71891 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-08-28 19:34:31.236  INFO 71891 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@76055d02, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@31c800a5, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@130ad58d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@648bfebe, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@383a5260, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4986b0ea, org.springframework.test.context.transaction.TransactionalTestExecutionListener@ce5a2ea, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@37a0c3c6, org.springframework.test.context.event.EventPublishingTestExecutionListener@5de32e00, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@219ec4b6, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@cdc09d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@31c29db1, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@751526a7, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@2279e7c7, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4c5e123d]
+2021-08-28 19:34:31.437  INFO 71891 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.vishwa.movieBookingSystem.services.impl.CityServiceImplTest], using SpringBootContextLoader
+2021-08-28 19:34:31.438  INFO 71891 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.vishwa.movieBookingSystem.services.impl.CityServiceImplTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-08-28 19:34:31.438  INFO 71891 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.vishwa.movieBookingSystem.services.impl.CityServiceImplTest]: CityServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-08-28 19:34:31.440  INFO 71891 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.vishwa.movieBookingSystem.MovieBookingSystemApplication for test class com.vishwa.movieBookingSystem.services.impl.CityServiceImplTest
+2021-08-28 19:34:31.443  INFO 71891 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-08-28 19:34:31.443  INFO 71891 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@69b436a7, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5dfd4fac, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@1d2aa638, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2f08e6d3, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@67c1fc9b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@50f65fe0, org.springframework.test.context.transaction.TransactionalTestExecutionListener@18a538a0, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@70736b19, org.springframework.test.context.event.EventPublishingTestExecutionListener@183e64a8, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7a553110, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@4b8466c2, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@2044f708, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4bb4cc8c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@18bab95b, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@70e07ef8]
+2021-08-28 19:34:31.526  INFO 71891 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-28 19:34:31.531  INFO 71891 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-28 19:34:31.536  INFO 71891 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-08-28 19:35:30.280  INFO 71966 --- [main] c.v.m.s.impl.MovieServiceImplTest        : Starting MovieServiceImplTest using Java 11.0.8 on vimohan-mn2.linkedin.biz with PID 71966 (started by vimohan in /Users/vimohan/Downloads/movieBookingSystem)
+2021-08-28 19:35:30.283  INFO 71966 --- [main] c.v.m.s.impl.MovieServiceImplTest        : No active profile set, falling back to default profiles: default
+2021-08-28 19:35:31.173  INFO 71966 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-28 19:35:31.299  INFO 71966 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 113 ms. Found 9 JPA repository interfaces.
+2021-08-28 19:35:32.121  INFO 71966 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-28 19:35:32.209  INFO 71966 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-28 19:35:32.367  INFO 71966 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-28 19:35:32.490  INFO 71966 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-28 19:35:32.714  INFO 71966 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-28 19:35:32.737  INFO 71966 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-28 19:35:33.749  INFO 71966 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-28 19:35:33.758  INFO 71966 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-28 19:35:34.854  WARN 71966 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-28 19:35:35.166  INFO 71966 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mbdb'
+2021-08-28 19:35:35.539  INFO 71966 --- [main] c.v.m.s.impl.MovieServiceImplTest        : Started MovieServiceImplTest in 5.651 seconds (JVM running for 7.062)
+2021-08-28 19:35:35.799  WARN 71966 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2021-08-28 19:35:35.799 ERROR 71966 --- [main] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "PUBLIC.UK_IKTY98AYE7NUNXE4F25A39EFL_INDEX_9 ON PUBLIC.STATUS(STATUS_NAME) VALUES 8"; SQL statement:
+insert into status (status_name, status_id) values (?, ?) [23505-200]
+2021-08-28 19:35:35.855  INFO 71966 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-28 19:35:35.859  INFO 71966 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-28 19:35:35.864  INFO 71966 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-08-28 19:37:36.917  INFO 72052 --- [main] c.v.m.s.impl.MovieServiceImplUnitTest    : Starting MovieServiceImplUnitTest using Java 11.0.8 on vimohan-mn2.linkedin.biz with PID 72052 (started by vimohan in /Users/vimohan/Downloads/movieBookingSystem)
+2021-08-28 19:37:36.921  INFO 72052 --- [main] c.v.m.s.impl.MovieServiceImplUnitTest    : No active profile set, falling back to default profiles: default
+2021-08-28 19:37:37.840  INFO 72052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-28 19:37:37.984  INFO 72052 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 131 ms. Found 9 JPA repository interfaces.
+2021-08-28 19:37:38.820  INFO 72052 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-28 19:37:38.903  INFO 72052 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-28 19:37:39.092  INFO 72052 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-28 19:37:39.245  INFO 72052 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-28 19:37:39.495  INFO 72052 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-28 19:37:39.523  INFO 72052 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-28 19:37:40.766  INFO 72052 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-28 19:37:40.780  INFO 72052 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-28 19:37:42.213  WARN 72052 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-28 19:37:42.602  INFO 72052 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mbdb'
+2021-08-28 19:37:43.031  INFO 72052 --- [main] c.v.m.s.impl.MovieServiceImplUnitTest    : Started MovieServiceImplUnitTest in 6.576 seconds (JVM running for 8.277)
+2021-08-28 19:37:43.508  INFO 72052 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-28 19:37:43.512  INFO 72052 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-28 19:37:43.518  INFO 72052 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-08-28 19:39:38.400  INFO 72146 --- [main] c.v.m.MovieBookingSystemApplicationTests : Starting MovieBookingSystemApplicationTests using Java 11.0.8 on vimohan-mn2.linkedin.biz with PID 72146 (started by vimohan in /Users/vimohan/Downloads/movieBookingSystem)
+2021-08-28 19:39:38.402  INFO 72146 --- [main] c.v.m.MovieBookingSystemApplicationTests : No active profile set, falling back to default profiles: default
+2021-08-28 19:39:39.234  INFO 72146 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-28 19:39:39.356  INFO 72146 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 114 ms. Found 9 JPA repository interfaces.
+2021-08-28 19:39:40.110  INFO 72146 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-28 19:39:40.204  INFO 72146 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-28 19:39:40.429  INFO 72146 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-28 19:39:40.589  INFO 72146 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-28 19:39:40.852  INFO 72146 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-28 19:39:40.880  INFO 72146 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-28 19:39:41.983  INFO 72146 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-28 19:39:41.997  INFO 72146 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-28 19:39:43.163  WARN 72146 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-28 19:39:43.472  INFO 72146 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mbdb'
+2021-08-28 19:39:43.822  INFO 72146 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 05babbce-1f24-4f9b-8c71-8402f9382999
+
+2021-08-28 19:39:44.099  INFO 72146 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@54816d7a, org.springframework.security.web.context.SecurityContextPersistenceFilter@51d76ad3, org.springframework.security.web.header.HeaderWriterFilter@39f7cc46, org.springframework.security.web.csrf.CsrfFilter@34525143, org.springframework.security.web.authentication.logout.LogoutFilter@7207f3c2, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@775fec4, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@6afb240d, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@106ac5f4, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6491006, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3a61d819, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c7b100b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5eed2edf, org.springframework.security.web.session.SessionManagementFilter@519a81dd, org.springframework.security.web.access.ExceptionTranslationFilter@224e7aa5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3bdc8975]
+2021-08-28 19:39:44.200  INFO 72146 --- [main] c.v.m.MovieBookingSystemApplicationTests : Started MovieBookingSystemApplicationTests in 6.163 seconds (JVM running for 7.318)
+2021-08-28 19:39:44.477  INFO 72146 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.vishwa.movieBookingSystem.services.impl.MovieServiceImplUnitTest], using SpringBootContextLoader
+2021-08-28 19:39:44.478  INFO 72146 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.vishwa.movieBookingSystem.services.impl.MovieServiceImplUnitTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-08-28 19:39:44.479  INFO 72146 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.vishwa.movieBookingSystem.services.impl.MovieServiceImplUnitTest]: MovieServiceImplUnitTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-08-28 19:39:44.497  INFO 72146 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.vishwa.movieBookingSystem.MovieBookingSystemApplication for test class com.vishwa.movieBookingSystem.services.impl.MovieServiceImplUnitTest
+2021-08-28 19:39:44.500  INFO 72146 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-08-28 19:39:44.500  INFO 72146 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@40273969, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5ec25b61, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7da40bf4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@75708130, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@c651286, org.springframework.test.context.support.DirtiesContextTestExecutionListener@40304938, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1d160161, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@6c9e7af2, org.springframework.test.context.event.EventPublishingTestExecutionListener@48cbb4c5, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@af04d6d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@2740585b, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3816efab, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2d6e09f0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@257da215, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@5aa461]
+2021-08-28 19:39:44.657  INFO 72146 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.vishwa.movieBookingSystem.services.impl.CityServiceImplTest], using SpringBootContextLoader
+2021-08-28 19:39:44.658  INFO 72146 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.vishwa.movieBookingSystem.services.impl.CityServiceImplTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-08-28 19:39:44.659  INFO 72146 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.vishwa.movieBookingSystem.services.impl.CityServiceImplTest]: CityServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-08-28 19:39:44.660  INFO 72146 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.vishwa.movieBookingSystem.MovieBookingSystemApplication for test class com.vishwa.movieBookingSystem.services.impl.CityServiceImplTest
+2021-08-28 19:39:44.662  INFO 72146 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-08-28 19:39:44.663  INFO 72146 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@352a8183, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@361d169a, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@47a68e3f, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@52288c65, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@33ef393a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6d18401b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1ebcfcf1, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@8e100e7, org.springframework.test.context.event.EventPublishingTestExecutionListener@420dde28, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6d3a56ea, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@141874c8, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@147ea894, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@38aed8ad, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@79c4454, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@50f5ce5b]
+2021-08-28 19:39:44.746  INFO 72146 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-28 19:39:44.750  INFO 72146 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-28 19:39:44.755  INFO 72146 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-08-28 19:40:30.167  INFO 72215 --- [main] c.v.m.MovieBookingSystemApplication      : Starting MovieBookingSystemApplication using Java 11.0.8 on vimohan-mn2.linkedin.biz with PID 72215 (/Users/vimohan/Downloads/movieBookingSystem/target/classes started by vimohan in /Users/vimohan/Downloads/movieBookingSystem)
+2021-08-28 19:40:30.174  INFO 72215 --- [main] c.v.m.MovieBookingSystemApplication      : No active profile set, falling back to default profiles: default
+2021-08-28 19:40:31.003  INFO 72215 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-28 19:40:31.113  INFO 72215 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97 ms. Found 9 JPA repository interfaces.
+2021-08-28 19:40:31.770  INFO 72215 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-08-28 19:40:31.783  INFO 72215 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-28 19:40:31.784  INFO 72215 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-08-28 19:40:31.911  INFO 72215 --- [main] o.a.c.c.C.[.[localhost].[/mbs/v1]        : Initializing Spring embedded WebApplicationContext
+2021-08-28 19:40:31.911  INFO 72215 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1689 ms
+2021-08-28 19:40:31.960  INFO 72215 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-28 19:40:32.141  INFO 72215 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-28 19:40:32.150  INFO 72215 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mbdb'
+2021-08-28 19:40:32.341  INFO 72215 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-28 19:40:32.385  INFO 72215 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-28 19:40:32.499  INFO 72215 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-28 19:40:32.607  INFO 72215 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-28 19:40:33.283  INFO 72215 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-28 19:40:33.291  INFO 72215 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-28 19:40:33.884  WARN 72215 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-28 19:40:34.182  INFO 72215 --- [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: d8468754-5c0d-4d92-bebe-7bb77c1ecd6d
+
+2021-08-28 19:40:34.313  INFO 72215 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5f14590c, org.springframework.security.web.context.SecurityContextPersistenceFilter@5eb9bf7d, org.springframework.security.web.header.HeaderWriterFilter@16732340, org.springframework.security.web.csrf.CsrfFilter@3055f310, org.springframework.security.web.authentication.logout.LogoutFilter@37ab1b10, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@78f35e39, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@55d87b73, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@46051269, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@384f0e32, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2f64f99f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4e210016, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@67baa05, org.springframework.security.web.session.SessionManagementFilter@7fa68ff4, org.springframework.security.web.access.ExceptionTranslationFilter@7dbbf730, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5a010eec]
+2021-08-28 19:40:34.416  INFO 72215 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/mbs/v1'
+2021-08-28 19:40:34.430  INFO 72215 --- [main] c.v.m.MovieBookingSystemApplication      : Started MovieBookingSystemApplication in 4.677 seconds (JVM running for 5.559)
+2021-08-28 19:40:34.510  INFO 72215 --- [main] c.v.m.MovieBookingSystemApplication      : Writing for info
+2021-08-28 19:40:34.510  WARN 72215 --- [main] c.v.m.MovieBookingSystemApplication      : Writing for warn
+2021-08-28 19:40:34.510 ERROR 72215 --- [main] c.v.m.MovieBookingSystemApplication      : Writing for error
+2021-08-28 19:40:56.113  INFO 72215 --- [http-nio-8082-exec-1] o.a.c.c.C.[.[localhost].[/mbs/v1]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-28 19:40:56.114  INFO 72215 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-28 19:40:56.115  INFO 72215 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-28 19:52:25.618  INFO 72215 --- [http-nio-8082-exec-5] c.v.m.controllers.MovieController        : Inside get all movies
+2021-08-28 19:53:16.422  INFO 72215 --- [http-nio-8082-exec-6] c.v.m.controllers.MovieController        : Inside get all movies
+2021-08-28 19:56:44.200  INFO 72215 --- [http-nio-8082-exec-8] c.v.m.controllers.MovieController        : Inside get all movies
+2021-08-28 19:58:45.433  INFO 72215 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-28 19:58:45.441  INFO 72215 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-28 19:58:45.444  INFO 72215 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-08-28 19:59:00.224  INFO 73110 --- [main] c.v.m.MovieBookingSystemApplication      : Starting MovieBookingSystemApplication using Java 11.0.8 on vimohan-mn2.linkedin.biz with PID 73110 (/Users/vimohan/Downloads/movieBookingSystem/target/classes started by vimohan in /Users/vimohan/Downloads/movieBookingSystem)
+2021-08-28 19:59:00.227  INFO 73110 --- [main] c.v.m.MovieBookingSystemApplication      : No active profile set, falling back to default profiles: default
+2021-08-28 19:59:00.936  INFO 73110 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-28 19:59:01.016  INFO 73110 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73 ms. Found 9 JPA repository interfaces.
+2021-08-28 19:59:01.447  INFO 73110 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-08-28 19:59:01.455  INFO 73110 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-28 19:59:01.455  INFO 73110 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-08-28 19:59:01.546  INFO 73110 --- [main] o.a.c.c.C.[.[localhost].[/mbs/v1]        : Initializing Spring embedded WebApplicationContext
+2021-08-28 19:59:01.546  INFO 73110 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1268 ms
+2021-08-28 19:59:01.578  INFO 73110 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-28 19:59:01.695  INFO 73110 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-28 19:59:01.702  INFO 73110 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mbdb'
+2021-08-28 19:59:01.832  INFO 73110 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-28 19:59:01.869  INFO 73110 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-28 19:59:01.969  INFO 73110 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-28 19:59:02.071  INFO 73110 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-28 19:59:02.750  INFO 73110 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-28 19:59:02.758  INFO 73110 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-28 19:59:03.359  WARN 73110 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-28 19:59:03.799  INFO 73110 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3fc051ce, org.springframework.security.web.context.SecurityContextPersistenceFilter@391e2a, org.springframework.security.web.header.HeaderWriterFilter@3e24bab6, org.springframework.security.web.csrf.CsrfFilter@74e175c7, org.springframework.security.web.authentication.logout.LogoutFilter@7d7c05fa, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3407ded1, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7dbbf730, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@3c5bb37d, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@6d8096ee, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4e3d36c2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@263e512e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@558575fe, org.springframework.security.web.session.SessionManagementFilter@3293030b, org.springframework.security.web.access.ExceptionTranslationFilter@7901a5ab, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4e782401]
+2021-08-28 19:59:03.893  INFO 73110 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/mbs/v1'
+2021-08-28 19:59:03.907  INFO 73110 --- [main] c.v.m.MovieBookingSystemApplication      : Started MovieBookingSystemApplication in 4.218 seconds (JVM running for 5.083)
+2021-08-28 19:59:03.983  INFO 73110 --- [main] c.v.m.MovieBookingSystemApplication      : Writing for info
+2021-08-28 19:59:03.983  WARN 73110 --- [main] c.v.m.MovieBookingSystemApplication      : Writing for warn
+2021-08-28 19:59:03.983 ERROR 73110 --- [main] c.v.m.MovieBookingSystemApplication      : Writing for error
+2021-08-28 19:59:35.052  INFO 73110 --- [http-nio-8082-exec-1] o.a.c.c.C.[.[localhost].[/mbs/v1]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-28 19:59:35.053  INFO 73110 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-28 19:59:35.055  INFO 73110 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-08-28 20:00:29.989  INFO 73110 --- [http-nio-8082-exec-2] c.v.m.controllers.MovieController        : Inside get all movies
+2021-08-28 20:19:32.399  INFO 74065 --- [main] c.v.m.MovieBookingSystemApplicationTests : Starting MovieBookingSystemApplicationTests using Java 11.0.8 on vimohan-mn2.linkedin.biz with PID 74065 (started by vimohan in /Users/vimohan/Downloads/movieBookingSystem)
+2021-08-28 20:19:32.405  INFO 74065 --- [main] c.v.m.MovieBookingSystemApplicationTests : No active profile set, falling back to default profiles: default
+2021-08-28 20:19:33.590  INFO 74065 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-28 20:19:33.735  INFO 74065 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 135 ms. Found 9 JPA repository interfaces.
+2021-08-28 20:19:34.421  INFO 74073 --- [main] c.v.m.MovieBookingSystemApplicationTests : Starting MovieBookingSystemApplicationTests using Java 11.0.8 on vimohan-mn2.linkedin.biz with PID 74073 (started by vimohan in /Users/vimohan/Downloads/movieBookingSystem)
+2021-08-28 20:19:34.427  INFO 74073 --- [main] c.v.m.MovieBookingSystemApplicationTests : No active profile set, falling back to default profiles: default
+2021-08-28 20:19:34.817  INFO 74065 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-28 20:19:34.905  INFO 74065 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-28 20:19:35.251  INFO 74065 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-28 20:19:35.480  INFO 74065 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-28 20:19:35.650  INFO 74073 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-28 20:19:35.807  INFO 74073 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 139 ms. Found 9 JPA repository interfaces.
+2021-08-28 20:19:35.864  INFO 74065 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-28 20:19:35.900  INFO 74065 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-28 20:19:36.728  INFO 74073 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-28 20:19:36.810  INFO 74073 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-28 20:19:37.042  INFO 74073 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-28 20:19:37.244  INFO 74073 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-28 20:19:37.421  INFO 74065 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-28 20:19:37.435  INFO 74065 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-28 20:19:37.626  INFO 74073 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-28 20:19:37.660  INFO 74073 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-28 20:19:38.900  WARN 74065 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-28 20:19:39.054  INFO 74073 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-28 20:19:39.070  INFO 74073 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-28 20:19:39.306  INFO 74065 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mbdb'
+2021-08-28 20:19:39.723  INFO 74065 --- [main] c.v.m.MovieBookingSystemApplicationTests : Started MovieBookingSystemApplicationTests in 8.081 seconds (JVM running for 10.717)
+2021-08-28 20:19:40.076  INFO 74065 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.vishwa.movieBookingSystem.services.impl.MovieServiceImplUnitTest], using SpringBootContextLoader
+2021-08-28 20:19:40.079  INFO 74065 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.vishwa.movieBookingSystem.services.impl.MovieServiceImplUnitTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-08-28 20:19:40.080  INFO 74065 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.vishwa.movieBookingSystem.services.impl.MovieServiceImplUnitTest]: MovieServiceImplUnitTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-08-28 20:19:40.102  INFO 74065 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.vishwa.movieBookingSystem.MovieBookingSystemApplication for test class com.vishwa.movieBookingSystem.services.impl.MovieServiceImplUnitTest
+2021-08-28 20:19:40.105  INFO 74065 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-08-28 20:19:40.106  INFO 74065 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@23adbd6b, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@11d0bff5, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4c1fed69, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@629dfb5a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2c955487, org.springframework.test.context.support.DirtiesContextTestExecutionListener@38ae69f7, org.springframework.test.context.transaction.TransactionalTestExecutionListener@be9bf2e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@623d222, org.springframework.test.context.event.EventPublishingTestExecutionListener@949f0d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@4b3eaf39, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@d6879bf, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@154208f2, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@318a81a0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@f73a7cf, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4198921f]
+2021-08-28 20:19:40.327  INFO 74065 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.vishwa.movieBookingSystem.services.impl.CityServiceImplTest], using SpringBootContextLoader
+2021-08-28 20:19:40.328  INFO 74065 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.vishwa.movieBookingSystem.services.impl.CityServiceImplTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-08-28 20:19:40.328  INFO 74065 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.vishwa.movieBookingSystem.services.impl.CityServiceImplTest]: CityServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-08-28 20:19:40.330  INFO 74065 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.vishwa.movieBookingSystem.MovieBookingSystemApplication for test class com.vishwa.movieBookingSystem.services.impl.CityServiceImplTest
+2021-08-28 20:19:40.333  INFO 74065 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-08-28 20:19:40.333  INFO 74065 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3b8ce72, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3ce4eb42, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@3a388769, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3054cdd3, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@755a4ef5, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6eff05e7, org.springframework.test.context.transaction.TransactionalTestExecutionListener@1002c49e, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@62eb918, org.springframework.test.context.event.EventPublishingTestExecutionListener@21a462ce, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@37e28b20, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@31428f76, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@4257163f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@40e7aea9, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@63ff861e, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@46e38c28]
+2021-08-28 20:19:40.431  INFO 74065 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-28 20:19:40.435  INFO 74065 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-28 20:19:40.442  INFO 74065 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-08-28 20:19:40.503  WARN 74073 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-28 20:19:40.804  INFO 74073 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mbdb'
+2021-08-28 20:19:41.216  INFO 74073 --- [main] c.v.m.MovieBookingSystemApplicationTests : Started MovieBookingSystemApplicationTests in 7.388 seconds (JVM running for 9.354)
+2021-08-28 20:19:41.633  INFO 74073 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.vishwa.movieBookingSystem.services.impl.MovieServiceImplUnitTest], using SpringBootContextLoader
+2021-08-28 20:19:41.635  INFO 74073 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.vishwa.movieBookingSystem.services.impl.MovieServiceImplUnitTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-08-28 20:19:41.635  INFO 74073 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.vishwa.movieBookingSystem.services.impl.MovieServiceImplUnitTest]: MovieServiceImplUnitTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-08-28 20:19:41.660  INFO 74073 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.vishwa.movieBookingSystem.MovieBookingSystemApplication for test class com.vishwa.movieBookingSystem.services.impl.MovieServiceImplUnitTest
+2021-08-28 20:19:41.663  INFO 74073 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-08-28 20:19:41.664  INFO 74073 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6c056020, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@7cc842b0, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@53dd29e0, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@3733b1f4, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@70f0c352, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4e93d23e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@743b7025, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5eadc347, org.springframework.test.context.event.EventPublishingTestExecutionListener@28b16193, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@78e34499, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@5776a9f8, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6771efaa, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@446fb72e, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@26caf4b6, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@4411a0fe]
+2021-08-28 20:19:41.925  INFO 74073 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.vishwa.movieBookingSystem.services.impl.CityServiceImplTest], using SpringBootContextLoader
+2021-08-28 20:19:41.926  INFO 74073 --- [main] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.vishwa.movieBookingSystem.services.impl.CityServiceImplTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2021-08-28 20:19:41.926  INFO 74073 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.vishwa.movieBookingSystem.services.impl.CityServiceImplTest]: CityServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2021-08-28 20:19:41.928  INFO 74073 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.vishwa.movieBookingSystem.MovieBookingSystemApplication for test class com.vishwa.movieBookingSystem.services.impl.CityServiceImplTest
+2021-08-28 20:19:41.931  INFO 74073 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2021-08-28 20:19:41.932  INFO 74073 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6b3d3e57, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@15251cc2, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@7bdaf563, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@53813f01, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@514c6ca0, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6cb2b947, org.springframework.test.context.transaction.TransactionalTestExecutionListener@40ef385f, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1a4c6e74, org.springframework.test.context.event.EventPublishingTestExecutionListener@28d728f1, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@51d6c42d, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@68423388, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1104cf3a, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@85fd4b, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6715a6da, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@1eb207c3]
+2021-08-28 20:19:42.082  INFO 74073 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-28 20:19:42.086  INFO 74073 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-28 20:19:42.092  INFO 74073 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-08-28 20:19:54.251  INFO 73110 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-28 20:19:54.254  INFO 73110 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-28 20:19:54.258  INFO 73110 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-08-28 20:20:17.048  INFO 74151 --- [main] c.v.m.MovieBookingSystemApplication      : Starting MovieBookingSystemApplication using Java 11.0.8 on vimohan-mn2.linkedin.biz with PID 74151 (/Users/vimohan/Downloads/movieBookingSystem/target/classes started by vimohan in /Users/vimohan/Downloads/movieBookingSystem)
+2021-08-28 20:20:17.056  INFO 74151 --- [main] c.v.m.MovieBookingSystemApplication      : No active profile set, falling back to default profiles: default
+2021-08-28 20:20:17.892  INFO 74151 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-28 20:20:18.004  INFO 74151 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 101 ms. Found 9 JPA repository interfaces.
+2021-08-28 20:20:18.498  INFO 74151 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-08-28 20:20:18.508  INFO 74151 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-28 20:20:18.509  INFO 74151 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-08-28 20:20:18.636  INFO 74151 --- [main] o.a.c.c.C.[.[localhost].[/mbs/v1]        : Initializing Spring embedded WebApplicationContext
+2021-08-28 20:20:18.637  INFO 74151 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1510 ms
+2021-08-28 20:20:18.673  INFO 74151 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-28 20:20:18.782  INFO 74151 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-28 20:20:18.788  INFO 74151 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mbdb'
+2021-08-28 20:20:18.912  INFO 74151 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-28 20:20:18.949  INFO 74151 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-28 20:20:19.050  INFO 74151 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-28 20:20:19.153  INFO 74151 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-28 20:20:19.776  INFO 74151 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-28 20:20:19.784  INFO 74151 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-28 20:20:20.391  WARN 74151 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-28 20:20:20.754  INFO 74151 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/mbs/v1'
+2021-08-28 20:20:20.767  INFO 74151 --- [main] c.v.m.MovieBookingSystemApplication      : Started MovieBookingSystemApplication in 4.167 seconds (JVM running for 5.135)
+2021-08-28 20:20:20.840  INFO 74151 --- [main] c.v.m.MovieBookingSystemApplication      : Writing for info
+2021-08-28 20:20:20.841  WARN 74151 --- [main] c.v.m.MovieBookingSystemApplication      : Writing for warn
+2021-08-28 20:20:20.841 ERROR 74151 --- [main] c.v.m.MovieBookingSystemApplication      : Writing for error
+2021-08-28 20:20:27.697  INFO 74151 --- [http-nio-8082-exec-1] o.a.c.c.C.[.[localhost].[/mbs/v1]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-28 20:20:27.698  INFO 74151 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-28 20:20:27.699  INFO 74151 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-28 20:21:08.797  WARN 74151 --- [http-nio-8082-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2021-08-28 20:21:08.797 ERROR 74151 --- [http-nio-8082-exec-2] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "PUBLIC.UK_EN7TLQHXTMELP1TNH0NH00K7M_INDEX_4 ON PUBLIC.MOVIE(MOVIE_NAME) VALUES 12"; SQL statement:
+insert into movie (cover_photo_url, duration, movie_desc, movie_name, release_date, status_id, trailer_url, movie_id) values (?, ?, ?, ?, ?, ?, ?, ?) [23505-200]
+2021-08-28 20:21:08.823 ERROR 74151 --- [http-nio-8082-exec-2] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/mbs/v1] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint ["PUBLIC.UK_EN7TLQHXTMELP1TNH0NH00K7M_INDEX_4 ON PUBLIC.MOVIE(MOVIE_NAME) VALUES 12"; SQL statement:
+insert into movie (cover_photo_url, duration, movie_desc, movie_name, release_date, status_id, trailer_url, movie_id) values (?, ?, ?, ?, ?, ?, ?, ?) [23505-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement] with root cause
+
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.UK_EN7TLQHXTMELP1TNH0NH00K7M_INDEX_4 ON PUBLIC.MOVIE(MOVIE_NAME) VALUES 12"; SQL statement:
+insert into movie (cover_photo_url, duration, movie_desc, movie_name, release_date, status_id, trailer_url, movie_id) values (?, ?, ?, ?, ?, ?, ?, ?) [23505-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:459) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:205) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:181) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.index.BaseIndex.getDuplicateKeyException(BaseIndex.java:103) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.mvstore.db.MVSecondaryIndex.checkUnique(MVSecondaryIndex.java:221) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.mvstore.db.MVSecondaryIndex.add(MVSecondaryIndex.java:196) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:531) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.dml.Insert.insertRows(Insert.java:195) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.dml.Insert.update(Insert.java:151) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.CommandContainer.update(CommandContainer.java:198) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.Command.executeUpdate(Command.java:251) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:191) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:152) ~[h2-1.4.200.jar:1.4.200]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-4.0.3.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3298) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3825) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:107) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:684) ~[na:na]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:344) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:99) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1362) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:453) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3212) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2380) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:448) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562) ~[spring-orm-5.3.8.jar:5.3.8]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743) ~[spring-tx-5.3.8.jar:5.3.8]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711) ~[spring-tx-5.3.8.jar:5.3.8]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:654) ~[spring-tx-5.3.8.jar:5.3.8]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:407) ~[spring-tx-5.3.8.jar:5.3.8]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174) ~[spring-data-jpa-2.5.2.jar:2.5.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.8.jar:5.3.8]
+	at com.sun.proxy.$Proxy91.save(Unknown Source) ~[na:na]
+	at com.vishwa.movieBookingSystem.services.impl.MovieServiceImpl.acceptMovieDetails(MovieServiceImpl.java:20) ~[classes/:na]
+	at com.vishwa.movieBookingSystem.controllers.MovieController.createMovie(MovieController.java:141) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.48.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.48.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2021-08-28 20:21:37.747  WARN 74151 --- [http-nio-8082-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : SQL Error: 23505, SQLState: 23505
+2021-08-28 20:21:37.747 ERROR 74151 --- [http-nio-8082-exec-3] o.h.engine.jdbc.spi.SqlExceptionHelper   : Unique index or primary key violation: "PUBLIC.UK_EN7TLQHXTMELP1TNH0NH00K7M_INDEX_4 ON PUBLIC.MOVIE(MOVIE_NAME) VALUES 12"; SQL statement:
+insert into movie (cover_photo_url, duration, movie_desc, movie_name, release_date, status_id, trailer_url, movie_id) values (?, ?, ?, ?, ?, ?, ?, ?) [23505-200]
+2021-08-28 20:21:37.749 ERROR 74151 --- [http-nio-8082-exec-3] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/mbs/v1] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: could not execute statement; SQL [n/a]; constraint ["PUBLIC.UK_EN7TLQHXTMELP1TNH0NH00K7M_INDEX_4 ON PUBLIC.MOVIE(MOVIE_NAME) VALUES 12"; SQL statement:
+insert into movie (cover_photo_url, duration, movie_desc, movie_name, release_date, status_id, trailer_url, movie_id) values (?, ?, ?, ?, ?, ?, ?, ?) [23505-200]]; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement] with root cause
+
+org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Unique index or primary key violation: "PUBLIC.UK_EN7TLQHXTMELP1TNH0NH00K7M_INDEX_4 ON PUBLIC.MOVIE(MOVIE_NAME) VALUES 12"; SQL statement:
+insert into movie (cover_photo_url, duration, movie_desc, movie_name, release_date, status_id, trailer_url, movie_id) values (?, ?, ?, ?, ?, ?, ?, ?) [23505-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:459) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:205) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.message.DbException.get(DbException.java:181) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.index.BaseIndex.getDuplicateKeyException(BaseIndex.java:103) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.mvstore.db.MVSecondaryIndex.checkUnique(MVSecondaryIndex.java:221) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.mvstore.db.MVSecondaryIndex.add(MVSecondaryIndex.java:196) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.mvstore.db.MVTable.addRow(MVTable.java:531) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.dml.Insert.insertRows(Insert.java:195) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.dml.Insert.update(Insert.java:151) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.CommandContainer.update(CommandContainer.java:198) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.command.Command.executeUpdate(Command.java:251) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdateInternal(JdbcPreparedStatement.java:191) ~[h2-1.4.200.jar:1.4.200]
+	at org.h2.jdbc.JdbcPreparedStatement.executeUpdate(JdbcPreparedStatement.java:152) ~[h2-1.4.200.jar:1.4.200]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeUpdate(ProxyPreparedStatement.java:61) ~[HikariCP-4.0.3.jar:na]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeUpdate(HikariProxyPreparedStatement.java) ~[HikariCP-4.0.3.jar:na]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:197) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3298) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3825) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:107) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:604) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.engine.spi.ActionQueue.lambda$executeActions$1(ActionQueue.java:478) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:684) ~[na:na]
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:475) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:344) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:40) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:99) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.internal.SessionImpl.doFlush(SessionImpl.java:1362) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:453) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.internal.SessionImpl.flushBeforeTransactionCompletion(SessionImpl.java:3212) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.internal.SessionImpl.beforeTransactionCompletion(SessionImpl.java:2380) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.engine.jdbc.internal.JdbcCoordinatorImpl.beforeTransactionCompletion(JdbcCoordinatorImpl.java:448) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.beforeCompletionCallback(JdbcResourceLocalTransactionCoordinatorImpl.java:183) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl.access$300(JdbcResourceLocalTransactionCoordinatorImpl.java:40) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorImpl$TransactionDriverControlImpl.commit(JdbcResourceLocalTransactionCoordinatorImpl.java:281) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.engine.transaction.internal.TransactionImpl.commit(TransactionImpl.java:101) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.springframework.orm.jpa.JpaTransactionManager.doCommit(JpaTransactionManager.java:562) ~[spring-orm-5.3.8.jar:5.3.8]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.processCommit(AbstractPlatformTransactionManager.java:743) ~[spring-tx-5.3.8.jar:5.3.8]
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.commit(AbstractPlatformTransactionManager.java:711) ~[spring-tx-5.3.8.jar:5.3.8]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.commitTransactionAfterReturning(TransactionAspectSupport.java:654) ~[spring-tx-5.3.8.jar:5.3.8]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:407) ~[spring-tx-5.3.8.jar:5.3.8]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174) ~[spring-data-jpa-2.5.2.jar:2.5.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.8.jar:5.3.8]
+	at com.sun.proxy.$Proxy91.save(Unknown Source) ~[na:na]
+	at com.vishwa.movieBookingSystem.services.impl.MovieServiceImpl.acceptMovieDetails(MovieServiceImpl.java:20) ~[classes/:na]
+	at com.vishwa.movieBookingSystem.controllers.MovieController.createMovie(MovieController.java:141) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.48.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.48.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2021-08-28 20:22:27.260 ERROR 74151 --- [http-nio-8082-exec-5] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/mbs/v1] threw exception [Request processing failed; nested exception is org.springframework.dao.DataIntegrityViolationException: not-null property references a null or transient value : com.vishwa.movieBookingSystem.entities.Movie.movieName; nested exception is org.hibernate.PropertyValueException: not-null property references a null or transient value : com.vishwa.movieBookingSystem.entities.Movie.movieName] with root cause
+
+org.hibernate.PropertyValueException: not-null property references a null or transient value : com.vishwa.movieBookingSystem.entities.Movie.movieName
+	at org.hibernate.engine.internal.Nullability.checkNullability(Nullability.java:111) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.engine.internal.Nullability.checkNullability(Nullability.java:55) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.action.internal.AbstractEntityInsertAction.nullifyTransientReferencesIfNotAlready(AbstractEntityInsertAction.java:116) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.action.internal.AbstractEntityInsertAction.makeEntityManaged(AbstractEntityInsertAction.java:125) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.engine.spi.ActionQueue.addResolvedEntityInsertAction(ActionQueue.java:289) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.engine.spi.ActionQueue.addInsertAction(ActionQueue.java:263) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.engine.spi.ActionQueue.addAction(ActionQueue.java:250) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.addInsertAction(AbstractSaveEventListener.java:338) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSaveOrReplicate(AbstractSaveEventListener.java:287) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.performSave(AbstractSaveEventListener.java:193) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.event.internal.AbstractSaveEventListener.saveWithGeneratedId(AbstractSaveEventListener.java:135) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.entityIsTransient(DefaultPersistEventListener.java:185) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:128) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.event.internal.DefaultPersistEventListener.onPersist(DefaultPersistEventListener.java:55) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.event.service.internal.EventListenerGroupImpl.fireEventOnEachListener(EventListenerGroupImpl.java:99) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.internal.SessionImpl.firePersist(SessionImpl.java:720) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at org.hibernate.internal.SessionImpl.persist(SessionImpl.java:706) ~[hibernate-core-5.4.32.Final.jar:5.4.32.Final]
+	at jdk.internal.reflect.GeneratedMethodAccessor56.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.orm.jpa.ExtendedEntityManagerCreator$ExtendedEntityManagerInvocationHandler.invoke(ExtendedEntityManagerCreator.java:362) ~[spring-orm-5.3.8.jar:5.3.8]
+	at com.sun.proxy.$Proxy87.persist(Unknown Source) ~[na:na]
+	at jdk.internal.reflect.GeneratedMethodAccessor56.invoke(Unknown Source) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$SharedEntityManagerInvocationHandler.invoke(SharedEntityManagerCreator.java:311) ~[spring-orm-5.3.8.jar:5.3.8]
+	at com.sun.proxy.$Proxy87.persist(Unknown Source) ~[na:na]
+	at org.springframework.data.jpa.repository.support.SimpleJpaRepository.save(SimpleJpaRepository.java:597) ~[spring-data-jpa-2.5.2.jar:2.5.2]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker$RepositoryFragmentMethodInvoker.lambda$new$0(RepositoryMethodInvoker.java:289) ~[spring-data-commons-2.5.2.jar:2.5.2]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137) ~[spring-data-commons-2.5.2.jar:2.5.2]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121) ~[spring-data-commons-2.5.2.jar:2.5.2]
+	at org.springframework.data.repository.core.support.RepositoryComposition$RepositoryFragments.invoke(RepositoryComposition.java:529) ~[spring-data-commons-2.5.2.jar:2.5.2]
+	at org.springframework.data.repository.core.support.RepositoryComposition.invoke(RepositoryComposition.java:285) ~[spring-data-commons-2.5.2.jar:2.5.2]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport$ImplementationMethodExecutionInterceptor.invoke(RepositoryFactorySupport.java:599) ~[spring-data-commons-2.5.2.jar:2.5.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:163) ~[spring-data-commons-2.5.2.jar:2.5.2]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:138) ~[spring-data-commons-2.5.2.jar:2.5.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:80) ~[spring-data-commons-2.5.2.jar:2.5.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.8.jar:5.3.8]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.8.jar:5.3.8]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:174) ~[spring-data-jpa-2.5.2.jar:2.5.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.8.jar:5.3.8]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.8.jar:5.3.8]
+	at com.sun.proxy.$Proxy91.save(Unknown Source) ~[na:na]
+	at com.vishwa.movieBookingSystem.services.impl.MovieServiceImpl.acceptMovieDetails(MovieServiceImpl.java:20) ~[classes/:na]
+	at com.vishwa.movieBookingSystem.controllers.MovieController.createMovie(MovieController.java:141) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:681) ~[tomcat-embed-core-9.0.48.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.8.jar:5.3.8]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:764) ~[tomcat-embed-core-9.0.48.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:228) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.8.jar:5.3.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:190) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:163) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:382) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1723) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.48.jar:9.0.48]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2021-08-28 20:42:30.766  INFO 74151 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-28 20:42:30.768  INFO 74151 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-28 20:42:30.772  INFO 74151 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-08-28 20:42:37.161  INFO 75306 --- [main] c.v.m.MovieBookingSystemApplication      : Starting MovieBookingSystemApplication using Java 11.0.8 on vimohan-mn2.linkedin.biz with PID 75306 (/Users/vimohan/Downloads/movieBookingSystem/target/classes started by vimohan in /Users/vimohan/Downloads/movieBookingSystem)
+2021-08-28 20:42:37.169  INFO 75306 --- [main] c.v.m.MovieBookingSystemApplication      : No active profile set, falling back to default profiles: default
+2021-08-28 20:42:37.994  INFO 75306 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-28 20:42:38.144  INFO 75306 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 136 ms. Found 9 JPA repository interfaces.
+2021-08-28 20:42:38.754  INFO 75306 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-08-28 20:42:38.770  INFO 75306 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-28 20:42:38.770  INFO 75306 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-08-28 20:42:38.892  INFO 75306 --- [main] o.a.c.c.C.[.[localhost].[/mbs/v1]        : Initializing Spring embedded WebApplicationContext
+2021-08-28 20:42:38.893  INFO 75306 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1667 ms
+2021-08-28 20:42:38.938  INFO 75306 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-28 20:42:39.097  INFO 75306 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-28 20:42:39.105  INFO 75306 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mbdb'
+2021-08-28 20:42:39.274  INFO 75306 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-28 20:42:39.323  INFO 75306 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-28 20:42:39.449  INFO 75306 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-28 20:42:39.565  INFO 75306 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-28 20:42:40.311  INFO 75306 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-28 20:42:40.320  INFO 75306 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-28 20:42:40.986  WARN 75306 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-28 20:42:41.368  INFO 75306 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/mbs/v1'
+2021-08-28 20:42:41.380  INFO 75306 --- [main] c.v.m.MovieBookingSystemApplication      : Started MovieBookingSystemApplication in 4.661 seconds (JVM running for 5.462)
+2021-08-28 20:42:41.454  INFO 75306 --- [main] c.v.m.MovieBookingSystemApplication      : Writing for info
+2021-08-28 20:42:41.454  WARN 75306 --- [main] c.v.m.MovieBookingSystemApplication      : Writing for warn
+2021-08-28 20:42:41.454 ERROR 75306 --- [main] c.v.m.MovieBookingSystemApplication      : Writing for error
+2021-08-28 20:42:48.571  INFO 75306 --- [http-nio-8082-exec-1] o.a.c.c.C.[.[localhost].[/mbs/v1]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-28 20:42:48.572  INFO 75306 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-28 20:42:48.574  INFO 75306 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-28 20:48:55.665  INFO 75306 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-28 20:48:55.668  INFO 75306 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-28 20:48:55.672  INFO 75306 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-08-28 20:49:03.784  INFO 75609 --- [main] c.v.m.MovieBookingSystemApplication      : Starting MovieBookingSystemApplication using Java 11.0.8 on vimohan-mn2.linkedin.biz with PID 75609 (/Users/vimohan/Downloads/movieBookingSystem/target/classes started by vimohan in /Users/vimohan/Downloads/movieBookingSystem)
+2021-08-28 20:49:03.786  INFO 75609 --- [main] c.v.m.MovieBookingSystemApplication      : No active profile set, falling back to default profiles: default
+2021-08-28 20:49:04.572  INFO 75609 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-08-28 20:49:04.689  INFO 75609 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 106 ms. Found 9 JPA repository interfaces.
+2021-08-28 20:49:05.235  INFO 75609 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2021-08-28 20:49:05.246  INFO 75609 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-08-28 20:49:05.247  INFO 75609 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-08-28 20:49:05.368  INFO 75609 --- [main] o.a.c.c.C.[.[localhost].[/mbs/v1]        : Initializing Spring embedded WebApplicationContext
+2021-08-28 20:49:05.369  INFO 75609 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1540 ms
+2021-08-28 20:49:05.404  INFO 75609 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-08-28 20:49:05.552  INFO 75609 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-08-28 20:49:05.559  INFO 75609 --- [main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:mbdb'
+2021-08-28 20:49:05.702  INFO 75609 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-08-28 20:49:05.753  INFO 75609 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-08-28 20:49:05.906  INFO 75609 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-08-28 20:49:06.057  INFO 75609 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-08-28 20:49:06.766  INFO 75609 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-08-28 20:49:06.776  INFO 75609 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-08-28 20:49:07.410  WARN 75609 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-08-28 20:49:07.764  INFO 75609 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path '/mbs/v1'
+2021-08-28 20:49:07.776  INFO 75609 --- [main] c.v.m.MovieBookingSystemApplication      : Started MovieBookingSystemApplication in 4.451 seconds (JVM running for 5.348)
+2021-08-28 20:49:07.853  INFO 75609 --- [main] c.v.m.MovieBookingSystemApplication      : Writing for info
+2021-08-28 20:49:07.853  WARN 75609 --- [main] c.v.m.MovieBookingSystemApplication      : Writing for warn
+2021-08-28 20:49:07.853 ERROR 75609 --- [main] c.v.m.MovieBookingSystemApplication      : Writing for error
+2021-08-28 20:49:18.069  INFO 75609 --- [http-nio-8082-exec-1] o.a.c.c.C.[.[localhost].[/mbs/v1]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-08-28 20:49:18.070  INFO 75609 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-08-28 20:49:18.071  INFO 75609 --- [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-08-28 21:08:25.033  INFO 75609 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-08-28 21:08:25.039  INFO 75609 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-08-28 21:08:25.042  INFO 75609 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
